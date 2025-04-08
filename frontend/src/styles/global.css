@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../public//Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../../public//Roboto-Bold.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
