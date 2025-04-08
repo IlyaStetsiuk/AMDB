@@ -1,7 +1,7 @@
 import React from 'react';
-import './home.css';
+import './footer.css';
 
-const Home = () => {
+const Footer = () => {
     return (
         <div>
             
@@ -9,4 +9,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default Footer;

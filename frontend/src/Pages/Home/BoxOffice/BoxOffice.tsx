@@ -1,7 +1,7 @@
 import React from 'react';
-import './home.css';
+import './boxOffice.css';
 
-const Home = () => {
+const BoxOffice = () => {
     return (
         <div>
             
@@ -9,4 +9,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default BoxOffice;

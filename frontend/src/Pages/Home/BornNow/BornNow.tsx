@@ -1,7 +1,7 @@
 import React from 'react';
-import './home.css';
+import './bornNow.css';
 
-const Home = () => {
+const BornNow = () => {
     return (
         <div>
             
@@ -9,4 +9,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default BornNow;

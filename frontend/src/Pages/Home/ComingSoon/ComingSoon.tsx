@@ -1,7 +1,7 @@
 import React from 'react';
-import './home.css';
+import './comingSoon.css';
 
-const Home = () => {
+const ComingSoon = () => {
     return (
         <div>
             
@@ -9,4 +9,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default ComingSoon;
