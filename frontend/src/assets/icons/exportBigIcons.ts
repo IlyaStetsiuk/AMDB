@@ -1,0 +1,7 @@
+export { default as Logo } from './bigIcons/Logo.svg'
+export { default as MenuAwardsIcon } from './bigIcons/Menu_Awards.svg'
+export { default as MenuCelebsIcon } from './bigIcons/Menu_Celebs.svg'
+export { default as MenuCommuityIcon } from './bigIcons/Menu_Commuity.svg'
+export { default as MenuMoviesIcon } from './bigIcons/Menu_Movies.svg'
+export { default as MenuTVShowsIcon } from './bigIcons/Menu_TV.svg'
+export { default as MenuWatchIcon } from './bigIcons/Menu_Watch.svg'
