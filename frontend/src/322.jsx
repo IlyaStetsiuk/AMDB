@@ -1,11 +1,3 @@
-import React from 'react';
-
-const rfc = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+export function name(params) {
+    return 'Hello world';
 }
-
-export default rfc;
