@@ -1,5 +1,4 @@
 import React from 'react';
-import './buttons.css';
 
 const TrailerButton = () => {
     return (

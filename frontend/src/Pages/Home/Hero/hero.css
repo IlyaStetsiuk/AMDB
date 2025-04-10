@@ -1,0 +1,127 @@
+.hero {
+    display: flex;
+    padding-bottom: 1000px;
+}
+
+.hero .left {
+    position: relative;
+}
+
+.hero .left .image-container {
+    width: 1041px;
+    height: 631px;
+    overflow: hidden;
+}
+
+.hero .left .image-container .image-wrapper {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero .left .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 98%); 
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 98%);
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+.hero .left .image-container .nav-buttons {
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 825px;
+    bottom: 90px;
+}
+
+.hero .left .image-container .nav-buttons .circles >* {
+    cursor: pointer;
+    display: flex;
+    margin-left: 13px;
+}
+
+.hero .left .image-container .nav-buttons .switch-image-buttons {
+    margin-left: 26px;
+}
+
+
+.hero .left .bottom-overlay  {
+    display: flex;
+    width: fit-content;
+    align-items: end;
+    position: absolute;
+    bottom: -70px;
+    left: 22px;
+}
+
+.hero .left .bottom-overlay .poster  {
+    position: relative;
+}
+
+.hero .left .bottom-overlay .poster .outer-add-to-watchlist {
+    position: absolute;
+    bottom: 359px;
+    left: 20px;
+}
+
+.hero .left .bottom-overlay .poster .poster-container {
+    border-radius: 20px;
+    width: 281px;
+    height: 409px;
+    overflow: hidden;
+}
+
+.hero .left .bottom-overlay .poster .poster-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero .left .bottom-overlay .hero-content {
+    margin-left: 30px;
+    display: flex;
+    align-items: end;
+}
+
+.hero .left .bottom-overlay .hero-content .info {
+    margin-left: 23px;
+}
+
+.hero .left .bottom-overlay .hero-content .info .info-top {
+    font-size: 36px;
+    color: white;
+    max-width: 400px;
+    margin-bottom: 13px;
+}
+
+.hero .left .bottom-overlay .hero-content .info .info-bottom {
+    font-size: 28px;
+    max-width: 420px
+}
+
+
+
+.hero .right {
+    margin-left: 32px;
+    display: flex;
+}
+
+.hero .right .right-circle {
+    position: relative;
+    top: 18px;
+}
+.hero .right-content {
+    margin-left: 7px;
+}
+.hero .right-content .right-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero .right-content .right-text .featured-text {
+    font-size: 18px;
+    color: white;
+}

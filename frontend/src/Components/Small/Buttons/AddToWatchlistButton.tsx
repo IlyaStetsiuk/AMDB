@@ -1,10 +1,10 @@
 import React from 'react';
-import './buttons.css';
+import { AddDarkIcon } from '../../../assets/icons/exportIcons';
 
 const AddToWatchlistButton = () => {
     return (
-        <div>
-            
+        <div className='add-to-watchlist'>
+            <img src={AddDarkIcon} alt="add" />
         </div>
     );
 }

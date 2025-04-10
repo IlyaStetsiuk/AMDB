@@ -1,0 +1,36 @@
+.add-to-watchlist {
+    position: relative;
+    width: 39px;
+    height: 50px;
+    background-color: var(--bgc-o6);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.add-to-watchlist img {
+    margin-bottom: 5px;
+    height: 26px;
+}
+.add-to-watchlist:hover {
+    background-color: var(--secondary-color-o5);
+}
+
+.play-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.arrows-button {
+    display: flex;
+}
+
+.arrows-button>*:nth-child(2n-1) {
+    margin-right: 5px;
+}

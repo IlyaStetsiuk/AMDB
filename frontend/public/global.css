@@ -3,4 +3,49 @@
     --bgc-secondary: #1A1A1A;
     --primary-color: #C3C3C3;
     --secondary-color: #F5C518;
+
+    --bgc-o9: rgba(8, 8, 8, 0.9);
+    --bgc-secondary-o9: rgba(26, 26, 26, 0.9);
+    --primary-color-o9: rgba(195, 195, 195, 0.9);
+    --secondary-color-o9: rgba(245, 197, 24, 0.9);
+    
+    --bgc-o8: rgba(8, 8, 8, 0.8);
+    --bgc-secondary-o8: rgba(26, 26, 26, 0.8);
+    --primary-color-o8: rgba(195, 195, 195, 0.8);
+    --secondary-color-o8: rgba(245, 197, 24, 0.8);
+
+    --bgc-o7: rgba(8, 8, 8, 0.7);
+    --bgc-secondary-o7: rgba(26, 26, 26, 0.7);
+    --primary-color-o7: rgba(195, 195, 195, 0.7);
+    --secondary-color-o7: rgba(245, 197, 24, 0.7);
+
+    --bgc-o6: rgba(8, 8, 8, 0.6);
+    --bgc-secondary-o6: rgba(26, 26, 26, 0.6);
+    --primary-color-o6: rgba(195, 195, 195, 0.6);
+    --secondary-color-o6: rgba(245, 197, 24, 0.6);
+
+    --bgc-o5: rgba(8, 8, 8, 0.5);
+    --bgc-secondary-o5: rgba(26, 26, 26, 0.5);
+    --primary-color-o5: rgba(195, 195, 195, 0.5);
+    --secondary-color-o5: rgba(245, 197, 24, 0.5);
+
+    --bgc-o4: rgba(8, 8, 8, 0.4);
+    --bgc-secondary-o4: rgba(26, 26, 26, 0.4);
+    --primary-color-o4: rgba(195, 195, 195, 0.4);
+    --secondary-color-o4: rgba(245, 197, 24, 0.4);
+
+    --bgc-o3: rgba(8, 8, 8, 0.3);
+    --bgc-secondary-o3: rgba(26, 26, 26, 0.3);
+    --primary-color-o3: rgba(195, 195, 195, 0.3);
+    --secondary-color-o3: rgba(245, 197, 24, 0.3);
+
+    --bgc-o2: rgba(8, 8, 8, 0.2);
+    --bgc-secondary-o2: rgba(26, 26, 26, 0.2);
+    --primary-color-o2: rgba(195, 195, 195, 0.2);
+    --secondary-color-o2: rgba(245, 197, 24, 0.2);
+
+    --bgc-o1: rgba(8, 8, 8, 0.1);
+    --bgc-secondary-o1: rgba(26, 26, 26, 0.1);
+    --primary-color-o1: rgba(195, 195, 195, 0.1);
+    --secondary-color-o1: rgba(245, 197, 24, 0.1);
 }
