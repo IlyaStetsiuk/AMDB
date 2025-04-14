@@ -1,0 +1,14 @@
+.home-top {
+    margin-top: 200px;
+}
+
+.home-top .movies-container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.15) 1%, var(--bgc) 70%);
+}
+
+.home-top .this-week {
+    margin-top: 120px;
+}

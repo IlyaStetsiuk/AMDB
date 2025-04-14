@@ -50,3 +50,4 @@ export { default as UserLightIcon } from './iconssrc/UserLight.svg';
 export { default as ViewDarkIcon } from './iconssrc/ViewDark.svg';
 export { default as WatchlistDarkIcon } from './iconssrc/WatchlistDark.svg';
 export { default as WatchlistLightIcon } from './iconssrc/WatchlistLight.svg';
+export { default as RateYellowIcon } from './iconssrc/RateYellow.svg';

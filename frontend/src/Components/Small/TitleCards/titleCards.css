@@ -1,0 +1,74 @@
+.vertical-card {
+    border-radius: 10px;
+    width: fit-content;
+    padding: 12px;
+    background-color: rgba(163, 163, 163, 0.05);
+}
+
+.vertical-card * {
+    cursor: pointer;
+}
+
+
+.vertical-card .top {
+    position: relative;
+}
+
+.vertical-card .top .poster {
+    height: 321px;
+    width: 204px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.vertical-card .top .add-container {
+    position: absolute;
+    top: 0px;
+    left: 16px;
+}
+
+.vertical-card .name {
+    font-size: 20px;
+    max-width: 204px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 17px 0px;
+}
+
+.vertical-card .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vertical-card .buttons > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-card .buttons p {
+    position: relative;
+    bottom: 1px;
+    margin-left: 5px;
+}
+
+.vertical-card .trailer-button {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    padding: 8px 18px;
+    border-radius: 10px;
+    background-color: rgba(163, 163, 163, 0.05);
+    transition: linear 0.2s background-color;
+}
+
+.vertical-card .trailer-button:hover {
+    background-color: rgba(163, 163, 163, 0.1);
+}
+
+.vertical-card .trailer-button img {
+    margin-left: 7px;
+    margin-right: 10px;
+}

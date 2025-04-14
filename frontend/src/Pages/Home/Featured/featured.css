@@ -5,6 +5,9 @@
 
 .featured .carousel .featured-article .main {
     position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: rgba(184, 182, 194, 0.15) 0px 48px 100px 0px;
 }
 
 .featured .carousel .featured-article .main .list-button {
