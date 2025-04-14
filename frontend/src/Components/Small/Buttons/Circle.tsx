@@ -2,7 +2,7 @@ import React from 'react';
 
 interface CircleProps {
     size: number;
-    active: boolean;
+    active?: boolean;
     color?: string;
 }
 

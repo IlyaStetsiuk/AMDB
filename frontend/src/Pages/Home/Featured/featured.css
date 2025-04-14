@@ -1,0 +1,53 @@
+.featured .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+
+.featured .top .name {
+    display: flex;
+    align-items: center;
+}
+
+.featured .top .name .name-text {
+    font-size: 28px;
+    margin-left: 6px;
+}
+
+.featured .carousel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured .carousel .featured-article .main {
+    position: relative;
+}
+
+.featured .carousel .featured-article .main .list-button {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.featured .carousel .featured-article .main .images {
+    width: 342px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.featured .carousel .featured-article .main .images img {
+    height: 196px;
+    object-fit: cover;
+}
+
+.featured .carousel .featured-article .bottom-text {
+    margin-top: 10px;
+}
+
+.featured .carousel .featured-article .bottom-text .bottom-type {
+    margin-top: 5px;
+    color: var(--secondary-color);
+}

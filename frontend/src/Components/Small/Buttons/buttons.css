@@ -34,3 +34,18 @@
 .arrows-button>*:nth-child(2n-1) {
     margin-right: 5px;
 }
+
+.oval-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    background-color: var(--primary-color-o3);
+    padding: 8px 18px;
+    border-radius: 45px;
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+}
+.oval-button img {
+    margin-right: 10px;
+}
