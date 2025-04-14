@@ -1,0 +1,16 @@
+.homeElHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+
+.homeElHead .name {
+    display: flex;
+    align-items: center;
+}
+
+.homeElHead .name .name-text {
+    font-size: 28px;
+    margin-left: 6px;
+}

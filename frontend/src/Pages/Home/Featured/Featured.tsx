@@ -5,6 +5,7 @@ import Arrows from '../../../Components/Small/Buttons/Arrows';
 import OvalButton from '../../../Components/Small/Buttons/OvalButton';
 import { ListDarkIcon } from '../../../assets/icons/exportIcons';
 import FeaturedArticle, { FeaturedArticleProps } from './FeaturedArticle';
+import HomeElHead from '../HomeElHead/HomeElHead';
 
 const articles : FeaturedArticleProps[] = [
     {
@@ -43,15 +44,7 @@ const articles : FeaturedArticleProps[] = [
 const Featured = () => {
     return (
         <div className='featured'>
-            <div className="top">
-                <div className="name">
-                    <Circle size={6} color='var(--secondary-color)' />
-                    <div className="name-text">
-                        Featured Today
-                    </div>
-                </div>
-                <Arrows size={42} leftActive={false} rightActive={true} />
-            </div>
+            <HomeElHead arrows={{leftActive: false, rightActive: true}} text='Featured Today'/>
             <div className="carousel">
                 {articles.map(article => 
                     <FeaturedArticle images={article.images} type={article.type} name={article.name} bottomType={article.bottomType}/>

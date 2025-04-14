@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowDarkIcon } from '../../../assets/icons/exportIcons';
 import SphereButton from './SphereButton';
 
-interface SphereButtonProps {
+export interface ArrowsProps {
     size?: number;
     leftActive?: boolean;
     rightActive?: boolean;
@@ -11,7 +11,7 @@ interface SphereButtonProps {
     opacity?: number;
 }
 
-const Arrows = ({size = 42, leftActive = true, rightActive = true, opacity = 3, onLeftClick, onRightClick} : SphereButtonProps) => {
+const Arrows = ({size = 42, leftActive = true, rightActive = true, opacity = 3, onLeftClick, onRightClick} : ArrowsProps) => {
     return (
         <div className='arrows-button'>
             <SphereButton onClick={onLeftClick} opacity={opacity} rotation={90} active={leftActive} coefficient={1} size={size} src={ArrowDarkIcon} />

@@ -1,23 +1,6 @@
-.featured .top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 34px;
-}
-
-.featured .top .name {
-    display: flex;
-    align-items: center;
-}
-
-.featured .top .name .name-text {
-    font-size: 28px;
-    margin-left: 6px;
-}
-
 .featured .carousel {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .featured .carousel .featured-article .main {
