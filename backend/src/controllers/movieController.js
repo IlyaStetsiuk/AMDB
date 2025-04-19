@@ -1,7 +1,7 @@
-import { Movie } from '../models';
+const { Movie } = require('../models');
 
 
-    exports.getAll = async (req, res) => {
+    exports.getAllMovies = async (req, res) => {
         try {
             const movies = await Movie.findAll();
             res.json(movies);
@@ -10,7 +10,7 @@ import { Movie } from '../models';
         }
     }
 
-    exports.getById = async (req, res) => {
+    exports.getMovieById = async (req, res) => {
         try {
             const movie = await Movie.findByPk(req.params.id);
             if (!movie) return res.status(404).json({ message: 'Movie not found' });
@@ -20,7 +20,7 @@ import { Movie } from '../models';
         }
     }
 
-    exports.create = async (req, res) => {
+    exports.createMovie = async (req, res) => {
         try {
             const newMovie = await Movie.create(req.body);
             res.status(201).json(newMovie);
@@ -29,7 +29,7 @@ import { Movie } from '../models';
         }
     }
 
-    exports.update = async (req, res) => {
+    exports.updateMovies = async (req, res) => {
         try {
             const movie = await Movie.findByPk(req.params.id);
             if (!movie) return res.status(404).json({ message: 'Movie not found' });
@@ -41,7 +41,7 @@ import { Movie } from '../models';
         }
     }
 
-    exports.delete = async (req, res) => {
+    exports.deleteMovie = async (req, res) => {
         try {
             const movie = await Movie.findByPk(req.params.id);
             if (!movie) return res.status(404).json({ message: 'Movie not found' });
